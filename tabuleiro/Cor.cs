@@ -8,6 +8,6 @@ namespace tabuleiro
         azul,
         vermelha,
         verde,
-         laranja
+        laranja
     }
 }

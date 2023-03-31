@@ -13,9 +13,15 @@ namespace tabuleiro
             Pecas = new Peca[linhas, colunas];
         }
 
-        public Peca RetornaUmaPeca(int linha, int coluna) 
+        public Peca RetornaUmaPeca(int linha, int coluna)
         {
             return Pecas[linha, coluna];
+        }
+
+        public void ColocaPeca(Peca peca, Posicao posicao)
+        {
+            Pecas[posicao.Linha, posicao.Coluna] = peca;
+            peca.Posicao = posicao;
         }
     }
 }
