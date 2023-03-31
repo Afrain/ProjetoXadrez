@@ -1,7 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using tabuleiro;
+﻿using tabuleiro;
+using ProjetoXadrez;
 
 Tabuleiro tab = new Tabuleiro(8, 8);
-
-Console.ReadLine();
+Tela.ImprimirTabuleiro(tab);
