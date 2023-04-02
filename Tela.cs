@@ -10,13 +10,13 @@ namespace ProjetoXadrez
             {
                 for (int coluna = 0; coluna < tabuleiro.Colunas; coluna++)
                 {
-                    if (tabuleiro.RetornaUmaPeca(linha, coluna) == null)
+                    if (tabuleiro.RetornarUmaPeca(linha, coluna) == null)
                     {
                         System.Console.Write("- ");
                     }
                     else
                     {
-                        System.Console.Write(tabuleiro.RetornaUmaPeca(linha, coluna) + " ");
+                        System.Console.Write(tabuleiro.RetornarUmaPeca(linha, coluna) + " ");
                     }
 
                 }
