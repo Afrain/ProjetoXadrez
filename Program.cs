@@ -16,3 +16,6 @@ catch (Exception ex)
 {
     System.Console.WriteLine(ex.Message);
 }
+
+PosicaoXadrez posXadr = new PosicaoXadrez('a', 8);
+System.Console.WriteLine(posXadr.toPosicao());
