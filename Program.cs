@@ -10,6 +10,8 @@ try
     tabuleiro.ColocarPeca(new Torre(Cor.preta, tabuleiro), new Posicao(1, 3));
     tabuleiro.ColocarPeca(new Rei(Cor.preta, tabuleiro), new Posicao(2, 4));
 
+    tabuleiro.ColocarPeca(new Torre(Cor.Branca, tabuleiro), new Posicao(7, 2));
+
     Tela.ImprimirTabuleiro(tabuleiro);
 }
 catch (Exception ex)
